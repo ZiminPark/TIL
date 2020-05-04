@@ -1,0 +1,1 @@
+- This is totally based on Tensorflow Official [Tutorial](https://www.tensorflow.org/tutorials) and [Guide](https://www.tensorflow.org/guide) with some added explanation.
