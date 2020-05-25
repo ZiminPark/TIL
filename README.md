@@ -1,2 +1,1 @@
-# CodeStudy
-study python, tensorflow code
+study python, tensorflow, RecSys, NLP, etc
