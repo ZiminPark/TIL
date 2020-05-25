@@ -5,3 +5,6 @@
 
 ### 2. [@dataclass](https://sjquant.tistory.com/30)
 - \_\_init\_\_, \_\_repr\_\_ 을 자동으로 정의해 준다.
+
+### 3. [enum](https://stackoverflow.com/questions/22586895/python-enum-when-and-where-to-use)
+- They give a name to a constant. 정확히 이해 못했다. 변수처럼 바뀌는 걸 방지하기 위해 사용하는 듯?
