@@ -11,3 +11,9 @@
 
 #### 4. [under score convention](https://dbader.org/blog/meaning-of-underscores-in-python)
 - private 으로 보호하고 싶을 때 쓴다.
+
+#### 5. [Program, Process, Thread](https://www.youtube.com/watch?v=iks_Xb9DtTM&feature=youtu.be)
+- 자세한 [설명 + 실습](https://www.youtube.com/watch?v=RrfASw-jfZ4)
+> - Program : 실행 가능한 파일
+> - Process : 실행 중인 파일, 다른 프로세스와 자원 공유 X
+> - Thread  : Process 안에서 스레드로 나누어서 작업
