@@ -17,3 +17,9 @@
 > - Program : 실행 가능한 파일
 > - Process : 실행 중인 파일, 다른 프로세스와 자원 공유 X
 > - Thread  : Process 안에서 스레드로 나누어서 작업
+
+#### 6. itertools.chain
+```import itertools
+list2d = [[1,2,3], [4,5,6], [7], [8,9]]
+merged = list(itertools.chain(*list2d))
+```
