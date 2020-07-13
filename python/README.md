@@ -23,3 +23,7 @@
 list2d = [[1,2,3], [4,5,6], [7], [8,9]]
 merged = list(itertools.chain(*list2d))
 ```
+
+#### 7. [python -m](http://pythonwise.blogspot.com/2015/01/python-m.html)
+- script에서 module을 실행한다.
+- 모듈이 directory로 구성된 경우 \_\_main\_\_.py를 실행한다.
