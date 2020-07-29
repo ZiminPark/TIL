@@ -27,3 +27,6 @@ merged = list(itertools.chain(*list2d))
 #### 7. [python -m](http://pythonwise.blogspot.com/2015/01/python-m.html)
 - script에서 module을 실행한다.
 - 모듈이 directory로 구성된 경우 \_\_main\_\_.py를 실행한다.
+
+#### 8. [logging](https://hamait.tistory.com/880)
+- 다른 모듈에서 로깅을 하려면 루트 파일에서 로거를 설정해둬야 한다.
