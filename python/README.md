@@ -30,3 +30,7 @@ merged = list(itertools.chain(*list2d))
 
 #### 8. [logging](https://hamait.tistory.com/880)
 - 다른 모듈에서 로깅을 하려면 루트 파일에서 로거를 설정해둬야 한다.
+
+#### 9. [Overriding Parent's Parent's method](https://stackoverflow.com/questions/18117974/calling-a-parents-parents-method-which-has-been-overridden-by-the-parent)
+- super(Father, self).__init__() : Father가 상속받는 메소드를 상속
+- Gradfather.__init__(): Grandfather를 직접 상속
