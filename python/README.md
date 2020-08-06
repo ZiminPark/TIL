@@ -39,3 +39,7 @@ merged = list(itertools.chain(*list2d))
 - 클래스에서 직접 접근이 가능.
 - 다른 언어와 다르게 인스턴스에서도 접근 가능.
 - @classmethod 와 @staticmethod의 차이는 상속할 때 차이
+
+#### 11. [argparse 디테일들](https://donghwa-kim.github.io/argparser.html)
+- action='store_true'를 사용하여 해당하는 인자(argument)가 입력되면 True, 입력되지 않으면 False로 인식하게 됩니다.
+- argument로 list나 dictionary를 넘겨주고 싶을 때 어떻게 하는지.
