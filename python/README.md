@@ -35,5 +35,7 @@ merged = list(itertools.chain(*list2d))
 - super(Father, self).__init__() : Father가 상속받는 메소드를 상속
 - Gradfather.__init__(): Grandfather를 직접 상속
 
-#### 10. [class method와 static method](http://schoolofweb.net/blog/posts/%ED%8C%8C%EC%9D%B4%EC%8D%AC-oop-part-4-%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%A9%94%EC%86%8C%EB%93%9C%EC%99%80-%EC%8A%A4%ED%83%9C%ED%8B%B1-%EB%A9%94%EC%86%8C%EB%93%9C-class-method-and-static-method/)
-- 어느 상황에 쓰는지 나중에 추가
+#### 10. [@classmethod와 @staticmethod](https://wikidocs.net/16074)
+- 클래스에서 직접 접근이 가능.
+- 다른 언어와 다르게 인스턴스에서도 접근 가능.
+- @classmethod 와 @staticmethod의 차이는 상속할 때 차이
