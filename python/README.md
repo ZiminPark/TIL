@@ -48,5 +48,7 @@ merged = list(itertools.chain(*list2d))
 - 세계 기준인 UTC+00 이 있고 지역에 맞게 +- 한다. 
 - 한국은 UTC+09이다.
 
+#### 13. [\[\], subscription, \_\_getitem\_\_, \_\_setitem\_\_](https://stackoverflow.com/questions/43627405/understanding-getitem-method)
+- \[\] 로 값을 가져오는 것은 class에 구현된 \_\_getitem\_\_을 실행한다는 의미
 
 
