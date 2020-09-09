@@ -4,3 +4,7 @@
 #### 2. [Generic 하다](https://soooprmx.com/archives/5852)
 - 함수가 인자의 Type을 다양하게 받고 그에 맞게 처리하는 방식을 말한다.
 - 파이썬은 동적언어이기 때문에 사실상 필요하지는 않다. 정적언어에서 필요한 성질.
+
+#### 3. [Side Effects](https://runestone.academy/runestone/books/published/fopp/Functions/SideEffects.html)
+- 함수나 expression이 외부 상태에 영향을 줄 때 side effect가 있다고 한다.
+- [참고자료](https://dojang.io/mod/page/view.php?id=2358)
