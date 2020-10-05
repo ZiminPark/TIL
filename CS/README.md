@@ -8,3 +8,7 @@
 #### 3. [Side Effects](https://runestone.academy/runestone/books/published/fopp/Functions/SideEffects.html)
 - 함수나 expression이 외부 상태에 영향을 줄 때 side effect가 있다고 한다.
 - [참고자료](https://dojang.io/mod/page/view.php?id=2358)
+
+#### 4. [Tail Recursion](https://medium.com/@soyoung823/tail-recursion-%EA%BC%AC%EB%A6%AC-%EC%9E%AC%EA%B7%80-a84c2cd9a7e8)
+- Recursion에서 return 시에 함수의 결과가 연산에 사용되지 않고 바로 반환되어 call stack에 안 쌓임. -> stackoverflow 문제 회피
+- 이렇게 하려면 return 할 때 연산이 들어가면 안 된다. ex) return n * f(n-1) 안 됨.
