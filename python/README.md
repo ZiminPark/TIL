@@ -52,3 +52,10 @@ merged = list(itertools.chain(*list2d))
 - \[\] 로 값을 가져오는 것은 class에 구현된 \_\_getitem\_\_을 실행한다는 의미
 
 
+#### 14. [@property](https://www.programiz.com/python-programming/property)
+- 변수를 보호하고 싶다.
+- get\_\*,  set\_\* 으로 방어한다?
+- refactoring에 어려움이 있다.
+- `@property`를 사용하면 깔끔.
+
+
