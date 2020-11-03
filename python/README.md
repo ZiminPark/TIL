@@ -58,4 +58,8 @@ merged = list(itertools.chain(*list2d))
 - refactoring에 어려움이 있다.
 - `@property`를 사용하면 깔끔.
 
-
+#### 15. [numba]
+- 속도 빨라짐 : jit (just in time) 기능을 사용하여 프로그램 실행 시점에 기계어로 컴파일하여 인터프리터 속도를 향상한다. (c처럼) 특히 numpy 벡터 연산, loop를 다룰 때 빠르다.
+- 사용법 : 함수에 @jit 데코레이터만 붙여주면 끝.
+- 파라미터 : @njit 은 @jit 파라미터에 noptyon=True 를 준 상태 / Fastmath : 수치제약을 해제하여 부가적인 성능 향상/ Parallel  GIL 무시하고 병렬로 실행
+- 자세한 내용은 [정리글](https://gurujung.github.io/dev/numba_user_performance-tips/),  [docs](https://numba.pydata.org/numba-doc/latest/user/5minguide.html#). 
