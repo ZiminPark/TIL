@@ -63,3 +63,9 @@ merged = list(itertools.chain(*list2d))
 - 사용법 : 함수에 @jit 데코레이터만 붙여주면 끝.
 - 파라미터 : @njit 은 @jit 파라미터에 noptyon=True 를 준 상태 / Fastmath : 수치제약을 해제하여 부가적인 성능 향상/ Parallel  GIL 무시하고 병렬로 실행
 - 자세한 내용은 [정리글](https://gurujung.github.io/dev/numba_user_performance-tips/),  [docs](https://numba.pydata.org/numba-doc/latest/user/5minguide.html#). 
+
+
+#### 16. [Ellipsis](https://stackoverflow.com/questions/772124/what-does-the-ellipsis-object-do)
+- ... 로 쓰이는 것의 명칭
+- slicing할 때 쓰이는 경우도 있고 (e.g. a[..., :3])
+- Type Hinting 할 때 쓰이는 경우도 있다. (Callable[..., int] <- int를 return하고 signature는 아무거나 가능)
