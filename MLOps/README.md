@@ -4,3 +4,5 @@
 
 #### 2. Machine Learning Systems Design (CS 329S)
 - [코스](https://huyenchip.com/2020/10/27/ml-systems-design-stanford.html?fbclid=IwAR3vR3KTBnSHGXV6k9BOZJCTkFNA0BP4Qmzj1MqNepLD2SCLf8dcd9fEMCU)
+
+#### 3. [머신러닝 시스템 디자인 패턴](https://mercari.github.io/ml-system-design-pattern/README_ko.html?fbclid=IwAR0minH5ZUmbungqNTvsquMDkVxHqVx1YTh3_WEaNLQdWX8wYB77zxlbpH8)
