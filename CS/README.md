@@ -15,3 +15,6 @@
 
 #### 5. [Serialization](https://medium.com/@lunay0ung/basics-%EC%A7%81%EB%A0%AC%ED%99%94-serialization-%EB%9E%80-feat-java-2f3eb11e9a8#:~:text=%EC%A7%81%EB%A0%AC%ED%99%94%EB%9E%80%20%EA%B0%9D%EC%B2%B4%EB%A5%BC%20%EB%B0%94%EC%9D%B4%ED%8A%B8,%EC%83%9D%EC%84%B1%ED%95%98%EC%97%AC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B2%83%EC%9D%B4%EB%8B%A4.)
 - 객체를 플랫폼(언어, 메모리/파일/DB)에 의존하지 않는 ByteStream으로 변환하는 일
+
+#### 6. [datetime format]
+- %Y-%m-%d %H:%M:%S %Z
