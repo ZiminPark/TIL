@@ -7,7 +7,14 @@
 
 ### 2. [Text Generation with RNN](https://github.com/ZiminPark/TIL/blob/master/tensorflow/code/text_generation.ipynb)
 - many-to-many 연습용
+```python
+def split_input_target(chunk):
+    input_text = chunk[:-1]
+    target_text = chunk[1:]
+    return input_text, target_text
 
+dataset = sequences.map(split_input_target)  # sequences : tf.data.Dataset
+```
 
 
 # TF 1.X
