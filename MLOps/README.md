@@ -8,3 +8,5 @@
 #### 3. [머신러닝 시스템 디자인 패턴](https://mercari.github.io/ml-system-design-pattern/README_ko.html?fbclid=IwAR0minH5ZUmbungqNTvsquMDkVxHqVx1YTh3_WEaNLQdWX8wYB77zxlbpH8)
 
 #### 4. [Building-ML-Pipelines](https://github.com/Building-ML-Pipelines/building-machine-learning-pipelines)
+
+#### 5. Machine Learning Engineering [책](http://www.mlebook.com/wiki/doku.php)
