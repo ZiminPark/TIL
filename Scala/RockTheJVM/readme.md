@@ -5,3 +5,5 @@
    2 - multiple traits may be  inherited by the same class
    3 - traits = behavior, abstract class = "thing"
 ```
+
+17. Generics - 12/23
