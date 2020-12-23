@@ -10,3 +10,5 @@
 #### 4. [Building-ML-Pipelines](https://github.com/Building-ML-Pipelines/building-machine-learning-pipelines)
 
 #### 5. Machine Learning Engineering [책](http://www.mlebook.com/wiki/doku.php)
+
+#### 6. Data Engineering 책 [추천](https://kadensungbincho.tistory.com/14?fbclid=IwAR21cGw_EE1MmBhMlahlIhQNkpDCYKrlZlr8zo5pMxxnDjPCyiCoyypxsj0)
