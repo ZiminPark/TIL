@@ -29,3 +29,8 @@
    val predator = new Animal {
       override def eat: Unit = println("RAW")
    }
+```
+
+
+21. Case Classes - 12//31
+![CaseClass](https://github.com/ZiminPark/TIL/blob/master/Scala/RockTheJVM/IMG_A94EEF25B52A-1.jpeg)
