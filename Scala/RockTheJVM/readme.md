@@ -32,5 +32,8 @@
 ```
 
 
-21. Case Classes - 12//31
+21. Case Classes - 12/31
 ![CaseClass](https://github.com/ZiminPark/TIL/blob/master/Scala/RockTheJVM/IMG_A94EEF25B52A-1.jpeg)
+
+22. Exceptions - 12/31
+![Exception](https://github.com/ZiminPark/TIL/blob/master/Scala/RockTheJVM/IMG_4699FF8F62D0-1.jpeg)
