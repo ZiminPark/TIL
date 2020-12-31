@@ -6,7 +6,7 @@
    3 - traits = behavior, abstract class = "thing"
 ```
 
-17. Generics - 12/30
+18. Generics - 12/30
 ```Scala
    class Animal
 
@@ -20,3 +20,12 @@
    }
    
 ```
+19.Anonymous Class - 12/31
+```Scala
+   trait Aniaml {
+      def eat: Unit
+   }
+   
+   val predator = new Animal {
+      override def eat: Unit = println("RAW")
+   }
