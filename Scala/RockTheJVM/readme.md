@@ -37,3 +37,6 @@
 
 22. Exceptions - 12/31
 ![Exception](https://github.com/ZiminPark/TIL/blob/master/Scala/RockTheJVM/IMG_4699FF8F62D0-1.jpeg)
+
+24. What's a Funtion, Really? - 1/2
+![Functions](https://github.com/ZiminPark/TIL/blob/master/Scala/RockTheJVM/IMG_E00BFFB7FF71-1.jpeg)
