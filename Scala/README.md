@@ -1,3 +1,5 @@
+> Why Scala? 회사 코드, Spark, 새로운 언어, Functional Programming
+
 #### 1.  traits vs abstract classes
   1. traits do not have constructor parameters
   2. multiple traits may be  inherited by the same class
