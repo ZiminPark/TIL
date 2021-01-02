@@ -18,3 +18,7 @@
 
 #### 6. [datetime format]
 - %Y-%m-%d %H:%M:%S %Z
+
+#### 7. Syntactic Sugar
+- 없어도 작동하지만 있으면 편한 기능을 말하는듯...?
+- python에서는 list comprehension이나 decorator 같은 애들
