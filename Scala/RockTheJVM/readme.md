@@ -45,3 +45,5 @@
 ![HOF](https://github.com/ZiminPark/TIL/blob/master/Scala/RockTheJVM/IMG_E00BFFB7FF71-1.jpeg)
 
 30. Sequences: List, Array, Vector - 1/3
+31. Tuples and Maps - 1/3
+![TM](https://github.com/ZiminPark/TIL/blob/master/Scala/RockTheJVM/tuple_map.jpeg)
