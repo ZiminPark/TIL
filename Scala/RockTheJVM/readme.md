@@ -43,3 +43,5 @@
 
 26. Higher-Order-Functions and Curries - 1/2
 ![HOF](https://github.com/ZiminPark/TIL/blob/master/Scala/RockTheJVM/IMG_E00BFFB7FF71-1.jpeg)
+
+30. Sequences: List, Array, Vector - 1/3
