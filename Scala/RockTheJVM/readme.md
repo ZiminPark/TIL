@@ -48,5 +48,5 @@
 31. Tuples and Maps - 1/3
 ![TM](https://github.com/ZiminPark/TIL/blob/master/Scala/RockTheJVM/tuple_map.jpeg)
 
-32. Options - 1/3
+32, 33. Options/ Try - 1/3
 ![options](https://github.com/ZiminPark/TIL/blob/master/Scala/RockTheJVM/option.jpeg)
