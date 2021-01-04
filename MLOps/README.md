@@ -12,3 +12,5 @@
 #### 5. Machine Learning Engineering [책](http://www.mlebook.com/wiki/doku.php)
 
 #### 6. Data Engineering 책 [추천](https://kadensungbincho.tistory.com/14?fbclid=IwAR21cGw_EE1MmBhMlahlIhQNkpDCYKrlZlr8zo5pMxxnDjPCyiCoyypxsj0)
+
+#### 7. Ray 정리자료 [블로그](https://zzsza.github.io/mlops/2021/01/03/python-ray/?fbclid=IwAR2ilx-zSX-xBALP4wi5Bo-_UA6UL33a08YncnrXi1JzBpD61rAevrXCZJc) 
