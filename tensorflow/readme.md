@@ -18,6 +18,9 @@ dataset = sequences.map(split_input_target)  # sequences : tf.data.Dataset
 
 ### 3. Indexing by tf.gather_nd
 ```python
+# tf.gather_nd docs: https://www.tensorflow.org/api_docs/python/tf/gather_nd
+# tf.stack docs: https://www.tensorflow.org/api_docs/python/tf/stack
+
 tar = tf.constant([[0,2,1], [2,3,1]])
 indexer = tf.constant([[[0,0],[0,1],[0,2]],[[1,0],[1,1],[1,2]]])
 beta = tf.random.normal([2,3,5])
