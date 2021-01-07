@@ -16,6 +16,29 @@ def split_input_target(chunk):
 dataset = sequences.map(split_input_target)  # sequences : tf.data.Dataset
 ```
 
+### 3. Indexing by tf.gather_nd
+```python
+tar = tf.constant([[0,2,1], [2,3,1]])
+indexer = tf.constant([[[0,0],[0,1],[0,2]],[[1,0],[1,1],[1,2]]])
+beta = tf.random.normal([2,3,5])
+
+step = 3
+bsz = 2
+
+step_range = [tf.range(step)] * bsz
+step_range = tf.stack(step_range, 0)
+print(step_range)
+
+bdx = [tf.range(bsz)] * step
+bdx = tf.stack(bdx, 1)
+print(bdx)
+
+indexer = tf.stack([bdx, step_range, tar], axis=-1)
+print(indexer)
+
+print(tf.gather_nd(beta, indexer))
+```
+
 
 # TF 1.X
 
