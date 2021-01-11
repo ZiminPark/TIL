@@ -9,12 +9,12 @@
 
 #### 4. [Building-ML-Pipelines](https://github.com/Building-ML-Pipelines/building-machine-learning-pipelines)
 
-#### 5. Machine Learning Engineering [책](http://www.mlebook.com/wiki/doku.php)
+#### 5. ML/Data Engineering 책 
+- Machine Learning Engineering [책](http://www.mlebook.com/wiki/doku.php)
+- Data Engineering 전반적인 내용을 위한 5권 [추천](https://kadensungbincho.tistory.com/14?fbclid=IwAR21cGw_EE1MmBhMlahlIhQNkpDCYKrlZlr8zo5pMxxnDjPCyiCoyypxsj0)
+- [Data Engineering with Python](https://www.amazon.com/Data-Engineering-Python-datasets-pipelines/dp/183921418X/ref=cm_cr_arp_d_product_top?ie=UTF8&fbclid=IwAR02loNWlI8CxVibjTpAWcxVNHnebB7n9o57lpqG-8-00TfO0EnEsUkj-_c)
 
-#### 6. Data Engineering 책 [추천1](https://kadensungbincho.tistory.com/14?fbclid=IwAR21cGw_EE1MmBhMlahlIhQNkpDCYKrlZlr8zo5pMxxnDjPCyiCoyypxsj0)
-- [추천2](https://www.amazon.com/Data-Engineering-Python-datasets-pipelines/dp/183921418X/ref=cm_cr_arp_d_product_top?ie=UTF8&fbclid=IwAR02loNWlI8CxVibjTpAWcxVNHnebB7n9o57lpqG-8-00TfO0EnEsUkj-_c)
+#### 6. Ray 정리자료 [블로그](https://zzsza.github.io/mlops/2021/01/03/python-ray/?fbclid=IwAR2ilx-zSX-xBALP4wi5Bo-_UA6UL33a08YncnrXi1JzBpD61rAevrXCZJc) 
 
-#### 7. Ray 정리자료 [블로그](https://zzsza.github.io/mlops/2021/01/03/python-ray/?fbclid=IwAR2ilx-zSX-xBALP4wi5Bo-_UA6UL33a08YncnrXi1JzBpD61rAevrXCZJc) 
-
-#### 8. 머신러닝 엔지니어 블로그, 인터뷰
+#### 7. 머신러닝 엔지니어 블로그, 인터뷰
 - 핑퐁 머신러닝 엔지니어 [인터뷰](https://blog.pingpong.us/interview-seunghwan/)
