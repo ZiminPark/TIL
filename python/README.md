@@ -69,3 +69,7 @@ merged = list(itertools.chain(*list2d))
 - ... 로 쓰이는 것의 명칭
 - slicing할 때 쓰이는 경우도 있고 (e.g. a[..., :3])
 - Type Hinting 할 때 쓰이는 경우도 있다. (Callable[..., int] <- int를 return하고 signature는 아무거나 가능)
+
+#### 17. 다이아몬드 상속시 super.__init__()을 어떻게 처리할까 [링크](https://stackoverflow.com/questions/34884567/python-multiple-inheritance-passing-arguments-to-constructors-using-super)
+- \*\*kwargs를 활용한다.
+- Diamond inheritance patterns 은 오류가 나기 쉽다. 피할 수 있게 구조를 설계하자.
