@@ -6,4 +6,7 @@
 - shell script : `#!/bin/bash`, bash는 /bin에 저장되어 있다. bash를 통해 실행시키겠다는 뜻.
 
 #### 3. tmux [티먹스](https://www.youtube.com/watch?v=iTyjTM4Gujg)
-- ![tmxu](https://i.redd.it/9eeanpxjucq21.png)
+![tmxu](https://i.redd.it/9eeanpxjucq21.png)
+
+#### iterm 에서 정규표현식으로 Highlight 하기 [링크](https://apple.stackexchange.com/questions/63000/how-to-highlight-errors-and-warnings-on-iterm-terminal-output/63001)
+- logger나 error에 설정해두면 보기 편하다.
