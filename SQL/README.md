@@ -22,3 +22,28 @@ SELECT id,
 FROM `project.dataset.table`,
   UNNEST(json2array(JSON_EXTRACT(json, '$'))) x  
 ```
+
+#### 4. Generate Array And UNNEST [BQ](https://cloud.google.com/bigquery/docs/reference/standard-sql/array_functions#generate_array)
+```SQL
+WITH A as (
+    SELECT 
+        4 as a,
+        5 as b,
+        8 as c
+)
+, B as (
+    SELECT 
+        GENERATE_ARRAY(A.a, A.c) as f
+    FROM
+        A
+)
+SELECT
+    A.a,
+    x
+FROM 
+    A,
+    B,
+    UNNEST(B.f) as x
+```
+
+
