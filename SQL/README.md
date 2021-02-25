@@ -68,4 +68,7 @@ FROM
     UNNEST(B.f) as x
 ```
 
+#### 5. UNNEST TWO COLUMNS [BQ](https://stackoverflow.com/questions/54404360/advanced-unnest-across-multiple-array-columns-in-bigquery/54408733#54408733)
+- Use OFFSET
+- 제일 좋은 방법인지는 모르겠다.
 
