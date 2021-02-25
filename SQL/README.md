@@ -1,3 +1,25 @@
+- Sample Table
+```SQL
+WITH items AS
+  (SELECT 
+    3 as id,
+    '["coffee", "tea", "milk" ]' as list,
+    4 as st,
+    6 as en
+  UNION ALL
+  SELECT 
+    6 as id,
+    '["coffee", "icf", "don", "milk"]' as list,
+    0 as st,
+    3 as en
+)
+SELECT 
+    *
+FROM 
+    items
+
+```
+
 #### 1. JSON column 처리 [방법](https://cloud.google.com/bigquery/docs/reference/standard-sql/json_functions#jsonpath_format)
 - JSONPath 형식 : $, ., [] 뜻 알기
 
