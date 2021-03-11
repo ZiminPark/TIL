@@ -73,3 +73,6 @@ merged = list(itertools.chain(*list2d))
 #### 17. 다이아몬드 상속시 super.__init__()을 어떻게 처리할까 [링크](https://stackoverflow.com/questions/34884567/python-multiple-inheritance-passing-arguments-to-constructors-using-super)
 - \*\*kwargs를 활용한다.
 - Diamond inheritance patterns 은 오류가 나기 쉽다. 피할 수 있게 구조를 설계하자.
+
+#### 18. Jupyter notebook에서 argparse 이용하기 [링크](https://velog.io/@yeong95/Jupyter-notebook%EC%97%90%EC%84%9C-argparse-%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0)
+- `parser.parse_args(args=[])` 이렇게 args를 지정하면 된다.
