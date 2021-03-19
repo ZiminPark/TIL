@@ -1,4 +1,6 @@
 #### 19. logging Tutorial [link](https://www.youtube.com/watch?v=-ARI4Cz-awo&ab_channel=CoreySchafer)
+- 여러 모듈에서 같은 로거 쓰는 방법 [링크](https://www.youtube.com/watch?v=jxmzY9soFXg&ab_channel=CoreySchafer)
+- 로거 메시지 포맷 [링크](https://docs.python.org/3/library/logging.html#logrecord-attributes)
 
 #### 1. [str, \_\_str\_\_](https://shoark7.github.io/programming/python/difference-between-__repr__-vs-__str__)
 
