@@ -1,3 +1,5 @@
+- MLOps: Continuous delivery and automation pipelines in machine learning 번역 [링크](https://zzsza.github.io/mlops/2020/05/16/cd-and-automation-pipeline-in-ml/)
+
 #### 8. gcp mlops coursera [link](https://www.coursera.org/learn/ml-pipelines-google-cloud?fbclid=IwAR1Ral6dXxqBPeOOgHDY54KdxvCstd6g0ADfgVxq1vKTse5-7nRnnx2Q7TI)
 
 #### 1. Jupyter Notebook에 파라미터 주입
