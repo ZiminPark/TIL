@@ -1,3 +1,6 @@
+### [TFRS](https://www.tensorflow.org/recommenders?hl=en)
+- Tutorial 따라해보기
+
 ### 1. [RecSim](https://github.com/ZiminPark/recsim)
 - Google [RecSim](https://github.com/google-research/recsim) 을 공부한 흔적
 
