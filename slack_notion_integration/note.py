@@ -1,59 +1,54 @@
 import os
-from slack_bolt import App as SlackApp
-
+from typing import List
 
 from dotenv import load_dotenv
+from flask import Flask, jsonify, request
+from slack_bolt import App as SlackApp
+
 load_dotenv()
 
+app = Flask(__name__)
 slackapp = SlackApp(token=os.environ.get("SLACK_BOT_TOKEN"))
 
+WORKSPACE = os.environ["SLACK_WORKSPACE"]
+SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
 
-def report_top_thumbsup_messages(channel_id):
-    bot_token = os.environ["SLACK_BOT_TOKEN"]
-    thumbs_up_reaction = "notebook_with_decorative_cover"
 
-    client = slackapp.client
+def filter_messages_with_emoji(messages, emoji):
+    filtered_messages = []
+    for msg in messages:
+        reactions: List = msg.get("reactions", [])
+        if emoji in reactions:
+            filtered_messages.append(msg)
+    return filtered_messages
 
-    # app_token = os.environ["SLACK_APP_TOKEN"]
-    # channel_name = "hanhwa"
-    # response = client.conversations_list(token=bot_token)
-    # channels = response["channels"]
 
-    # for channel in channels:
-    #     if channel["name"] == channel_name:
-    #         channel_id = channel["id"]
-    #         break
-    
-    
-    response = client.conversations_history(token=bot_token, channel=channel_id)
+def report_emoji_messages(channel_id: str, emoji: str = "notebook_with_decorative_cover"):
+    response = slackapp.client.conversations_history(token=SLACK_BOT_TOKEN, channel=channel_id)
     messages = response["messages"]
+    messages = filter_messages_with_emoji(messages, emoji)
 
-    thumbs_up_messages = []
-
+    report_formatted = ""
     for message in messages:
-        if "reactions" in message:
-            for reaction in message["reactions"]:
-                if reaction["name"] == thumbs_up_reaction:
-                    print(message)
-                    thumbs_up_messages.append(message)
-
-    report_formatted = "Thumbs Up Messages:\n"
-    for message in thumbs_up_messages:
         ts = message["ts"]
-        msg_url = f"https://upstageai.slack.com/archives/{channel_id}/p{ts.replace('.', '')}"
-        report_formatted += f"User <@{message['user']}>: {message['text']}, <{msg_url}|메시지 링크>]\n"
+        msg_url = f"https://{WORKSPACE}.slack.com/archives/{channel_id}/p{ts.replace('.', '')}"
+        report_formatted += f"<@{message['user']}>가 :{emoji}:하시길\n{message['text'][:300]} <{msg_url}|링크>\n\n"
+    if report_formatted == "":
+        report_formatted = f":{emoji}:가 포함된 메시지가 없습니다."
     return report_formatted
 
-from flask import Flask, jsonify, make_response
-app = Flask(__name__)
 
-@app.route('/note', methods=['POST'])
+@app.route("/note", methods=["POST"])
 def handle_command():
-    return jsonify(
-        response_type="in_channel",
-        text=report_top_thumbsup_messages("C044NMVKK5L")
-    )
+    req = request.form
+    if (emoji := req.get("text")) is None:
+        text = "Please specify an emoji"
+    else:
+        emoji = emoji.strip(":")
+        text = report_emoji_messages(req["channel_id"], emoji=emoji)
 
-if __name__ == '__main__':
+    return jsonify(response_type="in_channel", text=text)
+
+
+if __name__ == "__main__":
     app.run(port=3000)
-
